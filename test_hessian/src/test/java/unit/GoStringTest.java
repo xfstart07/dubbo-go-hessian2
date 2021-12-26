@@ -31,4 +31,41 @@ public class GoStringTest {
         Assert.assertEquals("hello world"
                 , GoTestUtil.readGoObject("HelloWorldString"));
     }
+    
+    public class ADO {
+        private BDO bDo;
+        private String s;
+        private String type;
+        private Boolean isNeed;
+        private Integer r;
+        private String cc;
+        private String token;
+        private String isTest;
+        private String asf;
+        private String dt;
+        private CDO cDo;
+      }
+      
+      public class BDO {
+        private String a;
+        private String b;
+        private String c;
+        private String d;
+        private UDO uDo;
+        private String ua;
+        private Map<String,Object> params;
+        private Map<String,String> dta;
+      }
+      
+      public class CDO {
+        private String yid;
+        private String name;
+        private Integer id;
+        private String desc;
+      }
+      
+      public class UDO {
+        private String username;
+        private String uid;
+      }
 }
